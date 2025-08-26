@@ -1,0 +1,29 @@
+
+01
+Install Tailwind CSS
+
+npm install tailwindcss @tailwindcss/cli
+
+02
+Import Tailwind in your CSS
+
+@import "tailwindcss";
+
+
+03
+Start the Tailwind CLI build process
+
+npx @tailwindcss/cli -i input.css -o output.css --watch
+
+04
+Start using Tailwind in your HTML
+
+<link href="./output.css" rel="stylesheet">
+
+05
+Open the command palette with
+ctrl + shift + p
+
+06
+Select: Developer: Relode window
+ 
